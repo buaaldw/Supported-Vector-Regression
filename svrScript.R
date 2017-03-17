@@ -2,7 +2,7 @@
 require(e1071)
 
 ###Load dataset
-dataset <- read.csv("campus.csv")
+dataset <- read.csv("data.csv")
 
 ##divide dataset into train and test
 ###set percentage for train set
