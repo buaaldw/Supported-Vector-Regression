@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split #split data into train/test
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("campus.csv") #load data values
+df = pd.read_csv("data.csv") #load data values
 #create train and test data
 data = df.values
 X = data[:, 1:]  # all rows, no label
